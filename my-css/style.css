@@ -80,12 +80,28 @@ Research Css
   -o-transition: all 0.4s ease-in-out;
   transform: scale(1.05, 1.05);
   z-index: 3;
+}
+.research-card:hover {
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transform: scale(1.05, 1.05);
+  z-index: 3;
+}
+.research-card:hover h5 {
   color: var(--blue);
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
 }
 
 .research-image-active {
-  height: 4.3em;
-  width: 10em;
+  max-height: 4em;
+  max-width: 10em;
   opacity: 100%;
   transition: all 0.4s ease-in-out;
   -webkit-transition: all 0.4s ease-in-out;
@@ -94,8 +110,8 @@ Research Css
   -o-transition: all 0.4s ease-in-out;
 }
 .research-image-not-active {
-  height: 4.3em;
-  width: 10em;
+  max-height: 4em;
+  max-width: 10em;
   opacity: 0%;
   transition: all 0.4s ease-in-out;
   -webkit-transition: all 0.4s ease-in-out;
@@ -112,20 +128,20 @@ Footer Css
 }
 .footer {
   background: var(--card);
-  transition: 1s;
-  -webkit-transition: 1s;
-  -moz-transition: 1s;
-  -ms-transition: 1s;
-  -o-transition: 1s;
+  transition: 0.75;
+  -webkit-transition: 0.75;
+  -moz-transition: 0.75;
+  -ms-transition: 0.75;
+  -o-transition: 0.75;
 }
 .footer-text {
   color: var(--text-color);
   margin: 0 2em;
-  transition: 1s;
-  -webkit-transition: 1s;
-  -moz-transition: 1s;
-  -ms-transition: 1s;
-  -o-transition: 1s;
+  transition: 0.75;
+  -webkit-transition: 0.75;
+  -moz-transition: 0.75;
+  -ms-transition: 0.75;
+  -o-transition: 0.75;
 }
 
 .max-height {
@@ -243,11 +259,11 @@ Shrink
 
 /* Footer Element */
 .nav-footer-container {
-  transition: 1s ease;
-  -webkit-transition: 1s ease;
-  -moz-transition: 1s ease;
-  -ms-transition: 1s ease;
-  -o-transition: 1s ease;
+  transition: 0.75s ease;
+  -webkit-transition: 0.75s ease;
+  -moz-transition: 0.75s ease;
+  -ms-transition: 0.75s ease;
+  -o-transition: 0.75s ease;
 }
 .footer {
   /* width: 100%; */
@@ -262,6 +278,11 @@ Shrink
 .footer a {
   color: var(--text-color);
   margin: 0.4em;
+  transition: 0.75s ease;
+  -webkit-transition: 0.75s ease;
+  -moz-transition: 0.75s ease;
+  -ms-transition: 0.75s ease;
+  -o-transition: 0.75s ease;
 }
 .footer a:link {
   text-decoration: none;
@@ -271,7 +292,15 @@ Shrink
   text-decoration: none;
   color: var(--text-color);
 }
-.footer a#love-icon:hover {
+.footer span {
+  margin: 0.4em;
+  transition: 0.75s ease;
+  -webkit-transition: 0.75s ease;
+  -moz-transition: 0.75s ease;
+  -ms-transition: 0.75s ease;
+  -o-transition: 0.75s ease;
+}
+.footer span#love-icon:hover {
   text-decoration: none;
   color: rgb(255, 0, 200);
 }
