@@ -2,7 +2,7 @@
   text-align: center;
 }
 .header-image {
-  height: 35vh;
+  height: 15em;
   margin-top: 1em;
   margin-bottom: 0.1em;
 }
@@ -14,6 +14,7 @@
   -o-transition: 1s ease;
   width: 100%;
   color: var(--text-color);
+  margin-bottom: 0.5em;
 }
 .align-right {
   text-align: right;

@@ -3,6 +3,11 @@
 }
 .about-section {
   color: var(--text-color);
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
 }
 
 .about-section a {
@@ -16,6 +21,7 @@
   -moz-transition: 1s;
   -ms-transition: 1s;
   -o-transition: 1s;
+  scroll-behavior: smooth;
 }
 .about-section a:after {
   position: absolute;

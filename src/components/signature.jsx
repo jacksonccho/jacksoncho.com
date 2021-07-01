@@ -22,7 +22,7 @@ const SvgComponent = (props) => {
       <h1 className="title-wrapper">
         Hi, I'm
         <svg
-          className={inView ? "animated visible" : "animated"}
+          className={inView ? "animated visible example" : "animated"}
           viewBox="0 0 89.467 37.475"
           {...props}
         >
@@ -44,10 +44,9 @@ const SvgComponent = (props) => {
 
 const Wrapper = styled.div`
   .animated {
-    float: inline-end;
-    position: relative;
     max-width: 150px;
     width: 50%;
+    position: relative;
     height: 50%;
     margin-bottom: 0.47em;
     stroke-dasharray: ${(props) => props.pathLength};

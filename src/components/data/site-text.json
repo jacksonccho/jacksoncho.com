@@ -34,14 +34,16 @@
         "location": "Remote",
         "title": "Software Engineering Intern",
         "description": "I designed and implemented a Python-enabled web tool for internal data processing and pipeline integration/management for medical device reliability data with an international, cross-functional Agile team.",
-        "date": "July 2020 - August 2020"
+        "date": "July 2020 - August 2020",
+        "file": "gehc.png"
       },
       {
         "company": "IBM Watson Health",
         "location": "Nashville, TN",
         "title": "Biomedical Informatics, Software Engineering Intern",
         "description": "I collaborated on multiple machine learning (PyTorch/TensorFlow) applications in biomedical informatics projects with Vanderbilt University Medical Center clinical, administrative, and cloud infrastructure.",
-        "date": "May 2019 - August 2019"
+        "date": "May 2019 - August 2019",
+        "file": "ibm.png"
       }
     ],
     "Selected Academic Projects": [
@@ -50,21 +52,24 @@
         "location": "Durham, NC",
         "title": "Project Software Engineer",
         "description": "I engineered and prototyped a smart human waste screening system leveraging bioanalytics for intelligent diagnosis and prevention of gastrointestinal disease for market usage. Specifically, I designed, trained, and deployed neural networks (PyTorch) for predictive image and diagnostic classification for live stool samples.",
-        "date": "August 2019 - Present"
+        "date": "August 2019 - Present",
+        "file": "washaid.png"
       },
       {
         "company": "Duke University School of Medicine Division of Brain Stimulation and Neurophysiology",
         "location": "Durham, NC",
         "title": "Research Project Engineer",
         "description": "I assisted in the designing and prototyping of a controllable pulse parameter transcranial magnetic stimulation device with the Division of Brain Stimulation and Neurophysiology by developing electrical hardware and software with MATLAB.",
-        "date": "September 2019 - March 2020"
+        "date": "September 2019 - March 2020",
+        "file": "dukemedschool.png"
       },
       {
         "company": "Duke University Hospital",
         "location": "Durham, NC",
         "title": "Research Project Engineer",
         "description": "I optimized use of Arduino, circuitry, and bioanalytical material science and employed engineering design to develop an automated pneumatic capsule opener for Duke University Hospital infrastructure and Ergonomics Division. I also had the opportunity to collaborate with Duke professors, Duke University Hospital and Ergonomics Division staff, and peer engineers to pitch our prototyped solution to Duke University faculty and clients.",
-        "date": "September 2018 - May 2019"
+        "date": "September 2018 - May 2019",
+        "file": "dukeuhealth.png"
       }
     ],
   

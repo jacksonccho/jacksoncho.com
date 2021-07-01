@@ -16,26 +16,47 @@ export default class Experience extends Component {
     return (
       <Fade bottom>
         <div
-          id={xpInfo.company}
-          className="card research-card card-coloring-left border-primary"
+          onMouseOver={() => {
+            this.setState({ selected: numEntry });
+          }}
+          onMouseOut={() => {
+            this.setState({ selected: "no section selected" });
+          }}
         >
-          <div className="card-header">
-            {xpInfo.company} | {xpInfo.date}
-          </div>
-          <div className="card-body">
-            <h5>{xpInfo.title}</h5>
-            <h6 className="card-subtitle mb-2" style={{ opacity: "0.5" }}>
-              {xpInfo.location}
-            </h6>
-            <p>{xpInfo.description}</p>
+          <div
+            id={xpInfo.company}
+            className="card research-card card-coloring-left border-primary"
+          >
+            <div className="card-header">
+              {xpInfo.company} | {xpInfo.date}
+            </div>
+            <div className="card-body">
+              <h5>{xpInfo.title}</h5>
+              <h6 className="card-subtitle mb-2" style={{ opacity: "0.5" }}>
+                {xpInfo.location}
+              </h6>
+              <div className="research-image-wrapper-left">
+                <img
+                  className={
+                    this.state.selected === numEntry
+                      ? "research-image-active"
+                      : "research-image-not-active"
+                  }
+                  src={"./images/" + xpInfo.file}
+                  alt={xpInfo.affiliation + " image"}
+                />
+              </div>
+              <p>{xpInfo.description}</p>
+            </div>
           </div>
         </div>
       </Fade>
     );
   };
   render() {
-    var numAcademicEntries = Object.keys(siteText["Selected Academic Projects"])
-      .length;
+    var numAcademicEntries = Object.keys(
+      siteText["Selected Academic Projects"]
+    ).length;
     var academicEntryIterator = Array.from(Array(numAcademicEntries).keys());
     var numProfessionalEntries = Object.keys(
       siteText["Professional Experience"]
@@ -71,9 +92,9 @@ export default class Experience extends Component {
         </a> */}
         {/* <div className="collapse show" id="multiCollapseExample2"> */}
         <div>
-          {professionalEntryIterator.map((numEntry) => {
-            var entryInfo = siteText["Professional Experience"][numEntry];
-            return this.createExperienceCard(numEntry, entryInfo);
+          {professionalEntryIterator.map((numProfEntry) => {
+            var entryInfo = siteText["Professional Experience"][numProfEntry];
+            return this.createExperienceCard(numProfEntry, entryInfo);
           })}
         </div>
         {/* </div> */}
@@ -88,9 +109,13 @@ export default class Experience extends Component {
         </a> */}
         {/* <div className="collapse multi-collapse" id="multiCollapseExample1"> */}
         <div>
-          {academicEntryIterator.map((numEntry) => {
-            var entryInfo = siteText["Selected Academic Projects"][numEntry];
-            return this.createExperienceCard(numEntry, entryInfo);
+          {academicEntryIterator.map((numAcademicEntry) => {
+            var totalEntries =
+              numAcademicEntry +
+              Object.keys(siteText["Professional Experience"]).length;
+            var entryInfo =
+              siteText["Selected Academic Projects"][numAcademicEntry];
+            return this.createExperienceCard(totalEntries, entryInfo);
           })}
         </div>
         {/* </div> */}
