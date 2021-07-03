@@ -81,22 +81,9 @@ Research Css
   transform: scale(1.05, 1.05);
   z-index: 3;
 }
-.research-card:hover {
-  transition: all 0.4s ease-in-out;
-  -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  -ms-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
-  transform: scale(1.05, 1.05);
-  z-index: 3;
-}
-.research-card:hover h5 {
+
+.research-card h5 {
   color: var(--blue);
-  transition: all 0.4s ease-in-out;
-  -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  -ms-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
 }
 
 .research-image-active {

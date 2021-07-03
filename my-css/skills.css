@@ -25,6 +25,7 @@
   -ms-transition: 0.75s ease;
   -o-transition: 0.75s ease;
 }
+
 .skill-image-notactive {
   opacity: 55%;
   transition: 1.75s ease;
@@ -33,6 +34,7 @@
   -ms-transition: 1.75s ease;
   -o-transition: 1.75s ease;
 }
+
 .skill-title-active {
   opacity: 100%;
   transition: 0.75s ease;
@@ -41,6 +43,7 @@
   -ms-transition: 0.75s ease;
   -o-transition: 0.75s ease;
 }
+
 .skill-title-notactive {
   opacity: 0%;
   transition: 1.75s ease;
