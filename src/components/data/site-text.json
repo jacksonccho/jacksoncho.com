@@ -1,6 +1,6 @@
 {
   "Email": "jackson.mcnabb@duke.edu",
-  "About": "I'm a Computer Science and Electrical and Computer Engineering double major junior at Duke University. I'm excited by software engineering and machine learning applications, especially in the medical field. I'm currently taking classes and serving as a teaching assistant for Duke's Advanced Software Design and Implementation course. ",
+  "About": "I'm a Computer Science and Electrical and Computer Engineering double major senior at Duke University. I'm excited by software engineering and machine learning applications, especially in the medical field. I'm currently taking classes and serving as a teaching assistant for Duke's Advanced Software Design and Implementation course. ",
     "Research Description": "I am interested in answering interdisciplinary research questions particularly how to leverage emerging technologies and machine learning to enhance hospital software infrastructure and the point of care.",
     "Research Papers": [
       {
@@ -29,6 +29,14 @@
     "Experience Description Part 2": ", I've pursued collaborative, fast-paced, and interdisciplinary software projects for both academia and industry.",
   
     "Professional Experience": [
+      {
+        "company": "GE Healthcare",
+        "location": "Remote",
+        "title": "Software Engineering Intern",
+        "description": "I defined, designed, and fabricated a generalizable RESTful Python library and client service for standardizing and validating results by artificial intelligence algorithms for medical imaging data, then submitted the library for publication in Society for Imaging Informatics in Medicine 2021 Conference.",
+        "date": "May 2021 - August 2021",
+        "file": "gehc.png"
+      },
       {
         "company": "GE Healthcare",
         "location": "Remote",
