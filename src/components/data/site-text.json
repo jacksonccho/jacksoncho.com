@@ -4,13 +4,22 @@
     "Research Description": "I am interested in answering interdisciplinary research questions particularly how to leverage emerging technologies and machine learning to enhance hospital software infrastructure and the point of care.",
     "Research Papers": [
       {
+        "title": "Standardization of Artificial Intelligence-Generated Evidence (SAIGE): A Containerized Python Tool for Interoperable DICOM® Evidence for Artificial Intelligence Models",
+        "conference": "Society for Imaging Informatics in Medicine 2021 Conference on Machine Intelligence in Medical Imaging",
+        "affiliation": "GE Healthcare",
+        "date": "2021",
+        "file": "gehc.png",
+        "url": "https://cdn.ymaws.com/siim.org/resource/resmgr/mimi21/sessions/c2001/standardization_of_artificia.pdf",
+        "authors": "Schuindt, Yarrabathini, Yarrabathini, McNabb, et al."
+      },
+      {
         "title": "Stool Image Analysis for Precision Health Monitoring by Smart Toilets",
         "conference": "Machine Learning for Healthcare 2021 Annual Conference",
         "affiliation": "Duke University Center for Water, Sanitation, Hygiene, and Infectious Disease",
         "date": "2021",
         "file": "washaid.png",
-        "url": "https://www.mlforhc.org/accepted-papers-1",
-        "authors": "McNabb et al."
+        "url": "https://static1.squarespace.com/static/59d5ac1780bd5ef9c396eda6/t/60fb3da464699341ea3914ef/1627078053985/MLHC2021_Camera_Ready_086.pdf",
+        "authors": "Zhou, DeCapite, McNabb, et al."
       },
       {
         "title": "Implementation of Artificial Intelligence-Enabled Clinical Decision Support: A Systematic Review of Clinical Outcomes",
@@ -40,7 +49,7 @@
         "company": "GE Healthcare",
         "location": "Remote",
         "title": "Software Engineering Intern",
-        "description": "I defined, designed, and fabricated a generalizable RESTful Python library and client service for standardizing and validating results by artificial intelligence algorithms for medical imaging data, then submitted the library for publication in Society for Imaging Informatics in Medicine 2021 Conference.",
+        "description": "I defined, designed, and deployed a RESTful and Kubernetes-enabled Python library, a client service, and a Reactjs app for standardizing and validating artificial intelligence algorithms results for medical imaginging data.",
         "date": "May 2021 - August 2021",
         "file": "gehc.png"
       },
