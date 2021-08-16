@@ -4,6 +4,15 @@
     "Research Description": "I am interested in answering interdisciplinary research questions particularly how to leverage emerging technologies and machine learning to enhance hospital software infrastructure and the point of care.",
     "Research Papers": [
       {
+        "title": "Stool Image Analysis for Precision Health Monitoring by Smart Toilets",
+        "conference": "Machine Learning for Healthcare 2021 Annual Conference",
+        "affiliation": "Duke University Center for Water, Sanitation, Hygiene, and Infectious Disease",
+        "date": "2021",
+        "file": "washaid.png",
+        "url": "https://www.mlforhc.org/accepted-papers-1",
+        "authors": "McNabb et al."
+      },
+      {
         "title": "Implementation of Artificial Intelligence-Enabled Clinical Decision Support: A Systematic Review of Clinical Outcomes",
         "conference": "American Medical Informatics Association",
         "affiliation": "IBM Watson Health and Vanderbilt University Department of Biomedical Informatics",
@@ -11,8 +20,6 @@
         "file": "ibm.png",
         "url": "https://knowledge.amia.org/71623-amia-1.4589302/t0005-1.4590480/t0005-1.4590481/a213-1.4590659/an213-1.4590660?timeStamp=1609621990797",
         "authors": "McNabb et al."
-  
-  
       },
       {
         "title": "Barriers and Facilitators to Adoption of Artificial Intelligence-Based Clinical Decision Support: Preliminary Findings of a Systematic Review",
