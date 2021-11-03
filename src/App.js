@@ -27,7 +27,7 @@ function App() {
           <About></About>
         </Fade>
         <Fade bottom>
-          <Experience></Experience>{" "}
+          <Experience></Experience>
         </Fade>
         <Fade bottom>
           <Research></Research>
@@ -35,7 +35,9 @@ function App() {
         <Fade bottom>
           <Skills></Skills>
         </Fade>
-        <Footer></Footer>
+        <Fade bottom>
+          <Footer></Footer>
+        </Fade>
       </div>
     </div>
   );
