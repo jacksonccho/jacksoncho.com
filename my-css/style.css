@@ -113,22 +113,10 @@ Footer Css
   width: 100%;
   text-align: center;
 }
-.footer {
-  background: var(--card);
-  transition: 0.75;
-  -webkit-transition: 0.75;
-  -moz-transition: 0.75;
-  -ms-transition: 0.75;
-  -o-transition: 0.75;
-}
+
 .footer-text {
   color: var(--text-color);
   margin: 0 2em;
-  transition: 0.75;
-  -webkit-transition: 0.75;
-  -moz-transition: 0.75;
-  -ms-transition: 0.75;
-  -o-transition: 0.75;
 }
 
 .max-height {
@@ -281,11 +269,11 @@ Shrink
 }
 .footer span {
   margin: 0.4em;
-  transition: 0.75s ease;
-  -webkit-transition: 0.75s ease;
-  -moz-transition: 0.75s ease;
-  -ms-transition: 0.75s ease;
-  -o-transition: 0.75s ease;
+  transition: 0.75s;
+  -webkit-transition: 0.75s;
+  -moz-transition: 0.75s;
+  -ms-transition: 0.75s;
+  -o-transition: 0.75s;
 }
 .footer span#love-icon:hover {
   text-decoration: none;
