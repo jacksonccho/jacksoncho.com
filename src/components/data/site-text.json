@@ -4,6 +4,15 @@
     "Research Description": "I am interested in answering interdisciplinary research questions particularly how to leverage emerging technologies and machine learning to enhance hospital software infrastructure and the point of care.",
     "Research Papers": [
       {
+        "title": "Stool Image Analysis for Digital Health Monitoring by Smart Toilets",
+        "conference": "IEEE Internet of Things Journal",
+        "affiliation": "Duke University Center for Water, Sanitation, Hygiene, and Infectious Diseas",
+        "date": "2022",
+        "file": "washaid.png",
+        "url": "https://ieeexplore.ieee.org/document/9733031",
+        "authors": "Zhou, McNabb, et al."
+      },
+      {
         "title": "Standardization of Artificial Intelligence-Generated Evidence (SAIGE): A Containerized Python Tool for Interoperable DICOM® Evidence for Artificial Intelligence Models",
         "conference": "Society for Imaging Informatics in Medicine 2021 Conference on Machine Intelligence in Medical Imaging",
         "affiliation": "GE Healthcare",
@@ -28,7 +37,7 @@
         "date": "2020",
         "file": "ibm.png",
         "url": "https://knowledge.amia.org/71623-amia-1.4589302/t0005-1.4590480/t0005-1.4590481/a213-1.4590659/an213-1.4590660?timeStamp=1609621990797",
-        "authors": "McNabb et al."
+        "authors": "McNabb, et al."
       },
       {
         "title": "Barriers and Facilitators to Adoption of Artificial Intelligence-Based Clinical Decision Support: Preliminary Findings of a Systematic Review",
@@ -37,7 +46,7 @@
         "date": "2020",
         "file": "ibm.png",
         "url": "https://knowledge.amia.org/71623-amia-1.4589302/t0005-1.4590480/t0005-1.4590481/a260-1.4590518/an260-1.4590519",
-        "authors": "Wan, McNabb et al."
+        "authors": "Wan, McNabb, et al."
   
       }
     ],
