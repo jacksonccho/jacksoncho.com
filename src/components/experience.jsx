@@ -16,16 +16,16 @@ export default class Experience extends Component {
     return (
       <Fade bottom>
         <div
-          onMouseOver={() => {
-            this.setState({ selected: numEntry });
-          }}
-          onMouseOut={() => {
-            this.setState({ selected: "no section selected" });
-          }}
         >
           <div
             id={xpInfo.company}
             className="card research-card card-coloring-left border-primary"
+            onMouseOver={() => {
+              this.setState({ selected: numEntry });
+            }}
+            onMouseOut={() => {
+              this.setState({ selected: "no section selected" });
+            }}
           >
             <div className="card-header">
               {xpInfo.company} | {xpInfo.date}

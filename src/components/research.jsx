@@ -18,12 +18,6 @@ export default class Research extends Component {
     return (
       <Fade bottom>
         <div
-          onMouseOver={() => {
-            this.setState({ selected: numPaper });
-          }}
-          onMouseOut={() => {
-            this.setState({ selected: "no section selected" });
-          }}
         >
           <a
             id={paperInfo.title}
@@ -31,6 +25,12 @@ export default class Research extends Component {
             href={paperInfo.url}
             target="_blank"
             rel="noopener noreferrer"
+            onMouseOver={() => {
+              this.setState({ selected: numPaper });
+            }}
+            onMouseOut={() => {
+              this.setState({ selected: "no section selected" });
+            }}
           >
             <div className="card-header">
               {paperInfo.conference} | {paperInfo.date}
