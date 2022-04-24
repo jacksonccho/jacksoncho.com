@@ -24,11 +24,11 @@ Research fade in when scrolling
 
 :root {
   --blue: #1357af;
-  --card: #d3d3d3;
-  --section-card: #b3b3b3;
-  --app-base: #dadada;
+  --card: #eaeef3;
+  --section-card: #e5e9ee;
+  --app-base: #F0F4F9;
   --text-color: black;
-  --nav: #b9b9b9;
+  --nav: #D3DDEE;
 }
 /*
 Research Css
@@ -85,6 +85,7 @@ Research Css
 .research-card h5 {
   color: var(--blue);
 }
+
 
 .research-image-active {
   max-height: 4em;

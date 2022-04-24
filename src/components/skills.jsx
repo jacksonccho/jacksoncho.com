@@ -20,40 +20,38 @@ export default class Skills extends Component {
           <div className="skill-container">
             {technicalSkills.map((technicalSkill) => {
               return (
-                <Fade bottom duration={1500}>
-                  <div>
-                    <div
-                      className="technicals-list"
-                      onMouseOver={() => {
-                        this.setState({ selected: technicalSkill.file });
-                      }}
-                      onMouseOut={() => {
-                        this.setState({ selected: "no section selected" });
-                      }}
-                    >
-                      <img
-                        style={{ height: "2.5em" }}
-                        src={"./images/skills/" + technicalSkill.file}
-                        className={
-                          this.state.selected === technicalSkill.file
-                            ? "skill-image-active"
-                            : "skill-image-notactive"
-                        }
-                        alt={technicalSkill.name + " image"}
-                      />{" "}
-                    </div>
-                    <span
-                      id="skill-name"
+                <div>
+                  <div
+                    className="technicals-list"
+                    onMouseOver={() => {
+                      this.setState({ selected: technicalSkill.file });
+                    }}
+                    onMouseOut={() => {
+                      this.setState({ selected: "no section selected" });
+                    }}
+                  >
+                    <img
+                      style={{ height: "2.5em" }}
+                      src={"./images/skills/" + technicalSkill.file}
                       className={
                         this.state.selected === technicalSkill.file
-                          ? "skill-title-active"
-                          : "skill-title-notactive"
+                          ? "skill-image-active"
+                          : "skill-image-notactive"
                       }
-                    >
-                      {technicalSkill.name}
-                    </span>
+                      alt={technicalSkill.name + " image"}
+                    />{" "}
                   </div>
-                </Fade>
+                  <span
+                    id="skill-name"
+                    className={
+                      this.state.selected === technicalSkill.file
+                        ? "skill-title-active"
+                        : "skill-title-notactive"
+                    }
+                  >
+                    {technicalSkill.name}
+                  </span>
+                </div>
               );
             })}
           </div>
