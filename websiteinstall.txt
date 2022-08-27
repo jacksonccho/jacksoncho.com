@@ -11,7 +11,8 @@ Editing website
 4) ctrl shift f is global find
 
 once changes are made-push to github
-0) type "yarn build"
+-1) type "yarn predeploy"
+0) type "yarn deploy"
 1) go to terminal and type "git add ."
 2) type "git commit -m "message""
 3) type "git push"

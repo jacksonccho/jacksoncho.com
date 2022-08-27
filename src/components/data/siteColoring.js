@@ -24,10 +24,10 @@ const themeLight = {
   blue: "#1357af",
   white: white,
   black: black,
-  card: "#d3d3d3",
-  sectionCard: "#b3b3b3",
-  appBase: "#dadada",
-  nav: "#d3d3d3",
+  card: "#eaeef3",
+  sectionCard: "#e5e9ee",
+  appBase: "#F0F4F9",
+  nav: "#D3DDEE",
 };
 
 export { themeLight, themeDark };

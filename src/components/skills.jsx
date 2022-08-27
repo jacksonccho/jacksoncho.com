@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Fade from "react-reveal/Fade";
+// import Fade from "react-reveal/Fade";
 
 /*Reactifying the css!*/
 let technicals = require("./data/site-text.json");
@@ -14,51 +14,49 @@ export default class Skills extends Component {
   }
   constructSkillsList = (technicalSkillName, technicalSkills) => {
     return (
-      <Fade bottom duration={1500}>
-        <div>
-          <h3 className="technical-skill-name-titling">{technicalSkillName}</h3>
-          <div className="skill-container">
-            {technicalSkills.map((technicalSkill) => {
-              return (
-                <Fade bottom duration={1500}>
-                  <div>
-                    <div
-                      className="technicals-list"
-                      onMouseOver={() => {
-                        this.setState({ selected: technicalSkill.file });
-                      }}
-                      onMouseOut={() => {
-                        this.setState({ selected: "no section selected" });
-                      }}
-                    >
-                      <img
-                        style={{ height: "2.5em" }}
-                        src={"./images/skills/" + technicalSkill.file}
-                        className={
-                          this.state.selected === technicalSkill.file
-                            ? "skill-image-active"
-                            : "skill-image-notactive"
-                        }
-                        alt={technicalSkill.name + " image"}
-                      />{" "}
-                    </div>
-                    <span
-                      id="skill-name"
-                      className={
-                        this.state.selected === technicalSkill.file
-                          ? "skill-title-active"
-                          : "skill-title-notactive"
-                      }
-                    >
-                      {technicalSkill.name}
-                    </span>
-                  </div>
-                </Fade>
-              );
-            })}
-          </div>
+      // <Fade bottom duration={1500}>
+      <div>
+        <h3 className="technical-skill-name-titling">{technicalSkillName}</h3>
+        <div className="skill-container">
+          {technicalSkills.map((technicalSkill) => {
+            return (
+              <div>
+                <div
+                  className="technicals-list"
+                  onMouseOver={() => {
+                    this.setState({ selected: technicalSkill.file });
+                  }}
+                  onMouseOut={() => {
+                    this.setState({ selected: "no section selected" });
+                  }}
+                >
+                  <img
+                    style={{ height: "2.5em" }}
+                    src={"./images/skills/" + technicalSkill.file}
+                    className={
+                      this.state.selected === technicalSkill.file
+                        ? "skill-image-active"
+                        : "skill-image-notactive"
+                    }
+                    alt={technicalSkill.name + " image"}
+                  />{" "}
+                </div>
+                <span
+                  id="skill-name"
+                  className={
+                    this.state.selected === technicalSkill.file
+                      ? "skill-title-active"
+                      : "skill-title-notactive"
+                  }
+                >
+                  {technicalSkill.name}
+                </span>
+              </div>
+            );
+          })}
         </div>
-      </Fade>
+      </div>
+      // </Fade>
     );
   };
 
