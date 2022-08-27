@@ -7,7 +7,7 @@ export default class Heading extends Component {
       <div className="base-section" id="about">
         <img
           className="header-image"
-          src={"./images/headshot-circle.png"}
+          src={"./images/placeholder.jpg"}
           alt="Jackson's headshot"
         />
         <SvgComponent></SvgComponent>

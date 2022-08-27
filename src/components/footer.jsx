@@ -8,7 +8,7 @@ export default class Footer extends Component {
       <footer className="footer mt-auto py-4" id="footer">
         <div className="container-footer">
           <span className="footer-text footer">
-            Designed and built by Jackson McNabb. Coded with
+            Designed and built by Jackson Cho. Coded with
             <a
               href="https://reactjs.org/"
               target="_blank"

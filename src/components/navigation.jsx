@@ -117,8 +117,8 @@ export default class Navbar extends Component {
         {/*Title Component*/}
         <div className="nav-text">
           <header className="nav-titling">
-            <a data-text="Jackson McNabb" href="index.html">
-              Jackson McNabb
+            <a data-text="Jackson Cho" href="index.html">
+              Jackson Cho
             </a>
           </header>
         </div>
@@ -157,7 +157,7 @@ export default class Navbar extends Component {
           </a>
           <a
             className="instagram-icon"
-            href="https://www.instagram.com/jacksonmcnabb125/"
+            href="https://www.instagram.com/jackson_c_cho/"
             target="_blank"
             rel="noopener noreferrer"
           >

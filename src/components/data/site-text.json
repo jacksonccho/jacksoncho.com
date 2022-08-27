@@ -1,111 +1,75 @@
 {
-  "Email": "jackson.mcnabb@duke.edu",
-  "About": "I'm a Computer Science and Electrical and Computer Engineering double major senior at Duke University. I'm excited by software engineering and machine learning applications, especially in the medical field. I'm currently taking classes and serving as a teaching assistant for Duke's Advanced Software Design and Implementation course. ",
-    "Research Description": "I am interested in answering interdisciplinary research questions particularly how to leverage emerging technologies and machine learning to enhance hospital software infrastructure and the point of care.",
+  "Email": "jcc0114@auburn.edu",
+  "About": "I'm a Mechanical Engineering major with a Computer Science minor studying at Auburn University. I am passionate about pursuing the intersection of my disciplines and furthering both my understanding and usefulness to the field of aeronautics. I am currently working with the ABEX CubeSat program and completing the remainder of my studies. ",
+    "Research Description": "I am focused on researching and providing cutting edge solutions to spacecraft engineering criteria.",
     "Research Papers": [
       {
-        "title": "Stool Image Analysis for Digital Health Monitoring by Smart Toilets",
-        "conference": "IEEE Internet of Things Journal",
-        "affiliation": "Duke University Center for Water, Sanitation, Hygiene, and Infectious Diseas",
+        "title": "High-Fidelity Spacecraft Thermal Modeling: Synthesis of STK, SPENVIS, MATLAB, Simulink, and Thermal Desktop using Model-based Systems Engineering",
+        "conference": "TBD",
+        "affiliation": "Alabama Burst Energetics eXplorer Thermal & Radiation Team",
         "date": "2022",
-        "file": "washaid.png",
-        "url": "https://ieeexplore.ieee.org/document/9733031",
-        "authors": "Zhou, McNabb, et al."
-      },
-      {
-        "title": "Standardization of Artificial Intelligence-Generated Evidence (SAIGE): A Containerized Python Tool for Interoperable DICOM® Evidence for Artificial Intelligence Models",
-        "conference": "Society for Imaging Informatics in Medicine 2021 Conference on Machine Intelligence in Medical Imaging",
-        "affiliation": "GE Healthcare",
-        "date": "2021",
-        "file": "gehc.png",
-        "url": "https://cdn.ymaws.com/siim.org/resource/resmgr/mimi21/sessions/c2001/standardization_of_artificia.pdf",
-        "authors": "Schuindt, Yarrabathini, McNabb, et al."
-      },
-      {
-        "title": "Stool Image Analysis for Precision Health Monitoring by Smart Toilets",
-        "conference": "Machine Learning for Healthcare 2021 Annual Conference",
-        "affiliation": "Duke University Center for Water, Sanitation, Hygiene, and Infectious Disease",
-        "date": "2021",
-        "file": "washaid.png",
-        "url": "https://static1.squarespace.com/static/59d5ac1780bd5ef9c396eda6/t/60fb3da464699341ea3914ef/1627078053985/MLHC2021_Camera_Ready_086.pdf",
-        "authors": "Zhou, DeCapite, McNabb, et al."
-      },
-      {
-        "title": "Implementation of Artificial Intelligence-Enabled Clinical Decision Support: A Systematic Review of Clinical Outcomes",
-        "conference": "American Medical Informatics Association",
-        "affiliation": "IBM Watson Health and Vanderbilt University Department of Biomedical Informatics",
-        "date": "2020",
-        "file": "ibm.png",
-        "url": "https://knowledge.amia.org/71623-amia-1.4589302/t0005-1.4590480/t0005-1.4590481/a213-1.4590659/an213-1.4590660?timeStamp=1609621990797",
-        "authors": "McNabb, et al."
-      },
-      {
-        "title": "Barriers and Facilitators to Adoption of Artificial Intelligence-Based Clinical Decision Support: Preliminary Findings of a Systematic Review",
-        "conference": "American Medical Informatics Association",
-        "affiliation": "IBM Watson Health and Vanderbilt University Department of Biomedical Informatics",
-        "date": "2020",
-        "file": "ibm.png",
-        "url": "https://knowledge.amia.org/71623-amia-1.4589302/t0005-1.4590480/t0005-1.4590481/a260-1.4590518/an260-1.4590519",
-        "authors": "Wan, McNabb, et al."
-  
+        "file": "ABEX.png",
+        "url": "TBD",
+        "authors": "Halvorson, Cho, et al."
       }
     ],
-    "Experience Description Part 1": "In addition to professional software experience with ",
-    "Experience Description Part 2": ", I've pursued collaborative, fast-paced, and interdisciplinary software projects for both academia and industry.",
+    "Experience Description Part 1": "I have honed my professional and technical skills with  ",
+    "Experience Description Part 2": ", and my expertise extends to a cross-disciplinary variety of engineering applications and a plethora of academic and professional pursuits.",
   
     "Professional Experience": [
       {
-        "company": "GE Healthcare",
-        "location": "Remote",
-        "title": "Software Engineering Intern",
-        "description": "I defined, designed, and deployed a RESTful and Kubernetes-enabled Python library, a client service, and a Reactjs app for standardizing and validating artificial intelligence algorithms results for medical imaging data.",
-        "date": "May 2021 - August 2021",
-        "file": "gehc.png"
+        "company": "Intuitive Research and Technology",
+        "location": "On Campus, Huntsville AL",
+        "title": "Mechanical Engineering Co-op 1st semester",
+        "description": "I headed up initial design considerations and mechanical solutions for an avionics based prototype integration defense project located on the Redstone Arsenal. I worked alongside engineers of various disciplines to provide them with accurate models and analysis to facilitate accelerated component integration.",
+        "date": "May 2020 - August 2020",
+        "file": "intuitive.png"
       },
       {
-        "company": "GE Healthcare",
-        "location": "Remote",
-        "title": "Software Engineering Intern",
-        "description": "I designed and implemented a Python-enabled web tool for internal data processing and pipeline integration/management for medical device reliability data with an international, cross-functional Agile team.",
-        "date": "July 2020 - August 2020",
-        "file": "gehc.png"
+        "company": "Intuitive Research and Technology",
+        "location": "On Campus, Huntsville AL",
+        "title": "Mechanical Engineering Co-op 2nd semester",
+        "description": "I designed and completed the necessary technical documentation associated with my tasking during my first semester, ranging from an Interface Control Document (ICD) to an Acceptance Test Procedure (ATP) for valdiating those prototype modifications.",
+        "date": "January 2021 - May 2021",
+        "file": "intuitive.png"
       },
       {
-        "company": "IBM Watson Health",
-        "location": "Nashville, TN",
-        "title": "Biomedical Informatics, Software Engineering Intern",
-        "description": "I collaborated on multiple machine learning (PyTorch/TensorFlow) applications in biomedical informatics projects with Vanderbilt University Medical Center clinical, administrative, and cloud infrastructure.",
-        "date": "May 2019 - August 2019",
-        "file": "ibm.png"
+        "company": "Intuitive Research and Technology",
+        "location": "On Campus, Huntsville AL",
+        "title": "Mechanical Engineering Co-op 3rd semseter",
+        "description": "I joined a mutli-disciplinary and multi-company team of test site engineers to provide support to mechanical system diagnostics testing as well as implement software package validation for field use.",
+        "date": "August 2021 - December 2021",
+        "file": "intuitive.png"
       }
+      
     ],
     "Selected Academic Projects": [
       {
-        "company": "Duke University Center for Water, Sanitation, Hygiene, and Infectious Disease",
-        "location": "Durham, NC",
-        "title": "Project Software Engineer",
-        "description": "I engineered and prototyped a smart human waste screening system leveraging bioanalytics for intelligent diagnosis and prevention of gastrointestinal disease for market usage. Specifically, I designed, trained, and deployed neural networks (PyTorch) for predictive image and diagnostic classification for live stool samples.",
-        "date": "August 2019 - Present",
-        "file": "washaid.png"
+        "company": "Alabama Burst Energetics eXplorer Thermal & Radiation Team",
+        "location": "Auburn, AL",
+        "title": "Thermal Control Team Manager",
+        "description": "I maintained and directed a 6 person team of Mechanical Engineers tasked with developing simulation software and models for the ABEX CubeSat program. Our tasking lays the foundation for future teams to begin building the physical satellite infrastructure.",
+        "date": "January 2021 - Present",
+        "file": "ABEX.png"
       },
       {
-        "company": "Duke University School of Medicine Division of Brain Stimulation and Neurophysiology",
-        "location": "Durham, NC",
-        "title": "Research Project Engineer",
-        "description": "I assisted in the designing and prototyping of a controllable pulse parameter transcranial magnetic stimulation device with the Division of Brain Stimulation and Neurophysiology by developing electrical hardware and software with MATLAB.",
-        "date": "September 2019 - March 2020",
-        "file": "dukemedschool.png"
+        "company": "Alabama Burst Energetics eXplorer Thermal & Radiation Team",
+        "location": "Auburn AL",
+        "title": "MATLAB Team Lead",
+        "description": "In addition to my role and responsibilites as Team Manager, I had the task of managing and developing a first-pass isothermal model of the CubeSat's thermal condition during orbit in MATLAB. My model considered per-face variation in incident radiation and complex fresnel reflectivity, and is on the cutting edge of radiative thermal considerations in aeronautics.",
+        "date": "January 2021 - Present",
+        "file": "ABEX.png"
       },
       {
-        "company": "Duke University Hospital",
-        "location": "Durham, NC",
-        "title": "Research Project Engineer",
-        "description": "I optimized use of Arduino, circuitry, and bioanalytical material science and employed engineering design to develop an automated pneumatic capsule opener for Duke University Hospital infrastructure and Ergonomics Division. I also had the opportunity to collaborate with Duke professors, Duke University Hospital and Ergonomics Division staff, and peer engineers to pitch our prototyped solution to Duke University faculty and clients.",
-        "date": "September 2018 - May 2019",
-        "file": "dukeuhealth.png"
+        "company": "Auburn University Mechanical Engineering",
+        "location": "Auburn AL",
+        "title": "Measurements and Sensor Development Team Lead",
+        "description": "I organized a team of fellow engineering students to devlop, plan, and build an automated plant health maintenance unit for a class project. While not specifically professional in nature, I believe my dedication to actually building a physical working prototype using an arduino controller and servos instead of merely drawing up a plan represents a critical distinction in Engineering experience I display academically.",
+        "date": "June 2021 - August 2021",
+        "file": "auburn.png"
       }
     ],
-  
+   
     "Languages": [
         {
           "name": "Python",
@@ -116,8 +80,8 @@
           "file": "java.png"
         },
         {
-          "name": "C",
-          "file": "cprogramming.png"
+          "name": "MATLAB",
+          "file": "matlab.png"
         },
         {
           "name": "C++",

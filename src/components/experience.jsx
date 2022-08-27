@@ -77,8 +77,8 @@ export default class Experience extends Component {
         </section>
         <p className="section-body base-section about-section">
           {siteText["Experience Description Part 1"]}
-          <a href="#IBM Watson Health">IBM Watson Health</a> and{" "}
-          <a href="#GE Healthcare">GE Healthcare</a>
+          <a href="#Intuitive Research and Technology">Intuitive Research and Technology</a> and{" "}
+          <a href="#Alabama Burst Energetics eXplorer Thermal & Radiation Team">Alabama Burst Energetics eXplorer</a>
           {siteText["Experience Description Part 2"]}
         </p>
         {/* <a
