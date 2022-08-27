@@ -1,5 +1,5 @@
 {
-<<<<<<< HEAD
+
   "Email": "jcc0114@auburn.edu",
   "About": "I'm a Mechanical Engineering major with a Computer Science minor studying at Auburn University. I am passionate about pursuing the intersection of my disciplines and furthering both my understanding and usefulness to the field of aeronautics. I am currently working with the ABEX CubeSat program and completing the remainder of my studies. ",
     "Research Description": "I am focused on researching and providing cutting edge solutions to spacecraft engineering criteria.",
@@ -8,16 +8,6 @@
         "title": "High-Fidelity Spacecraft Thermal Modeling: Synthesis of STK, SPENVIS, MATLAB, Simulink, and Thermal Desktop using Model-based Systems Engineering",
         "conference": "TBD",
         "affiliation": "Alabama Burst Energetics eXplorer Thermal & Radiation Team",
-=======
-  "Email": "jackson.mcnabb@duke.edu",
-  "About": "I'm a software engineer at GE Healthcare with the Edison Engineering Development Program. I hold Computer Science (B.S.) and Electrical and Computer Engineering (B.S.E) degrees from Duke University. I'm excited by software engineering and machine learning applications, especially in medicine. ",
-    "Research Description": "I am interested in answering interdisciplinary research questions particularly how to leverage emerging technologies and machine learning to enhance hospital software infrastructure and the point of care.",
-    "Research Papers": [
-      {
-        "title": "Stool Image Analysis for Digital Health Monitoring by Smart Toilets",
-        "conference": "IEEE Internet of Things Journal",
-        "affiliation": "Duke University Center for Water, Sanitation, Hygiene, and Infectious Disease",
->>>>>>> 03e7fc947b7117afbfe3d12e2781289ef237416e
         "date": "2022",
         "file": "ABEX.png",
         "url": "TBD",
